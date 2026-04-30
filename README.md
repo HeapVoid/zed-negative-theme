@@ -42,4 +42,6 @@ npm run build:icons
 
 Zed themes are theme-family JSON files under `themes/`, referenced by an `extension.toml` manifest. Syntax colors use Zed's Tree-sitter capture names (`keyword`, `string`, `function`, `property`, `variable.parameter`, and so on), so TextMate scopes from VS Code must be mapped rather than copied literally.
 
+The Imba Zed extension maps its custom semantic token types through syntax scopes such as `imba.class.field`, `imba.tag.field`, and `imba.tag.attribute`; this theme colors those separately from generic `property` and `attribute`.
+
 Zed icon themes are separate JSON files under `icon_themes/`. VS Code's Seti theme uses an icon font, so `scripts/convert-seti-icons.mjs` converts each glyph into a standalone SVG and maps VS Code file/language associations to Zed file suffixes and stems.

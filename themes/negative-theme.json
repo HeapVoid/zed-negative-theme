@@ -284,6 +284,21 @@
             "font_style": null,
             "font_weight": null
           },
+          "imba.class.field": {
+            "color": "#80CBC4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "imba.tag.attribute": {
+            "color": "#80CBC4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "imba.tag.field": {
+            "color": "#80CBC4",
+            "font_style": null,
+            "font_weight": null
+          },
           "interface": {
             "color": "#BBA0FF",
             "font_style": null,
