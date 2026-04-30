@@ -1,0 +1,7 @@
+id = "negative-theme"
+name = "Negative Theme"
+version = "0.1.0"
+schema_version = 1
+authors = ["Joao Pedro", "Heap Void"]
+description = "A Zed port of the Negative Theme VS Code color theme with Seti-style file icons."
+repository = "https://github.com/HeapVoid/zed-negative-theme"

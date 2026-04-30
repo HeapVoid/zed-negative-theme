@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:theme": "node scripts/convert-negative-theme.mjs",
+    "build:icons": "node scripts/convert-seti-icons.mjs"
+  },
+  "devDependencies": {
+    "opentype.js": "^1.3.5"
+  }
+}
